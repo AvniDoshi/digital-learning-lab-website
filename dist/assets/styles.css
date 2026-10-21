@@ -79,6 +79,7 @@ button, input { font: inherit; }
   height: 42px;
   flex: 0 0 auto;
   border-radius: 9px;
+  background: white;
   object-fit: cover;
 }
 .brand small { display: block; margin-top: 4px; color: var(--ocean); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; }
@@ -209,7 +210,7 @@ p { margin: 0 0 1.15em; }
   padding: 22px;
   border: 1px solid rgba(10, 110, 132, .13);
   border-radius: var(--radius-lg);
-  background: #e6f0f4;
+  background: white;
   box-shadow: var(--shadow);
   transform: rotate(1.5deg);
 }

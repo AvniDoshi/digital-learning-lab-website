@@ -2,12 +2,12 @@ if (!document.querySelector('link[rel~="icon"]')) {
   const favicon = document.createElement('link');
   favicon.rel = 'icon';
   favicon.type = 'image/png';
-  favicon.href = 'assets/dll-logo.png';
+  favicon.href = 'assets/dll-logo-white.png';
   document.head.append(favicon);
 
   const touchIcon = document.createElement('link');
   touchIcon.rel = 'apple-touch-icon';
-  touchIcon.href = 'assets/dll-logo.png';
+  touchIcon.href = 'assets/dll-logo-white.png';
   document.head.append(touchIcon);
 }
 
