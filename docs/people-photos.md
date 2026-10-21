@@ -32,5 +32,5 @@ Each person in Leadership, Lab Staff, and Graduate Students has an individual HT
 
 ## Sources
 
-- Portraits: the public [Digital Learning Lab People page](https://www.digitallearninglab.org/people.html)
+- Portraits: the former public Digital Learning Lab People page, now preserved in this repository
 - Biographical and research details: public UC Irvine faculty, staff, and doctoral directory pages, plus personal academic websites linked from each profile when available
