@@ -1,17 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" aria-hidden="true">
-  <g fill="none" stroke="#8aa8b4" stroke-linecap="round" stroke-width="6" opacity=".42">
-    <path d="M181 124 76 43M181 124 47 131M181 124 88 211M181 124 180 28M181 124 181 222M181 124 285 43M181 124 314 124M181 124 285 207"/>
-    <path d="M76 43 180 28 285 43M47 131 88 211 181 222 285 207 314 124"/>
+  <g fill="none" stroke="#8aa8b4" stroke-linecap="round" stroke-width="7" opacity=".48">
+    <path d="M19 101 67 43 145 91 194 34 274 89 322 42"/>
+    <path d="M19 101 91 174 145 91 218 154 329 194"/>
+    <path d="M67 43 91 174 164 224 218 154 274 89 329 194"/>
+    <path d="M145 91 194 34 274 89"/>
+    <path d="M164 224 329 194"/>
   </g>
-  <g stroke="#f7fbf8" stroke-width="4">
-    <circle cx="181" cy="124" r="23" fill="#386aa5"/>
-    <circle cx="76" cy="43" r="14" fill="#ef963c"/>
-    <circle cx="47" cy="131" r="11" fill="#f5c84c"/>
-    <circle cx="88" cy="211" r="16" fill="#7fa8bc"/>
-    <circle cx="180" cy="28" r="10" fill="#7eb87a"/>
-    <circle cx="181" cy="222" r="13" fill="#ef9050"/>
-    <circle cx="285" cy="43" r="16" fill="#f5c84c"/>
-    <circle cx="314" cy="124" r="12" fill="#7fa8bc"/>
-    <circle cx="285" cy="207" r="14" fill="#7eb87a"/>
-  </g>
+  <circle cx="19" cy="101" r="18" fill="#f5c84c"/>
+  <circle cx="67" cy="43" r="27" fill="#386aa5"/>
+  <circle cx="91" cy="174" r="34" fill="#ef963c"/>
+  <circle cx="145" cy="91" r="21" fill="#7eb87a"/>
+  <circle cx="164" cy="224" r="17" fill="#7fa8bc"/>
+  <circle cx="194" cy="34" r="29" fill="#f5c84c"/>
+  <circle cx="218" cy="154" r="30" fill="#386aa5"/>
+  <circle cx="274" cy="89" r="19" fill="#ef9050"/>
+  <circle cx="322" cy="42" r="24" fill="#7fa8bc"/>
+  <circle cx="329" cy="194" r="35" fill="#7eb87a"/>
 </svg>
