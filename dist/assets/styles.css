@@ -266,6 +266,16 @@ p { margin: 0 0 1.15em; }
 .motif-4 { --motif-image: url("network-motif-4.svg"); }
 .motif-5 { --motif-image: url("network-motif-5.svg"); }
 .motif-6 { --motif-image: url("network-motif-6.svg"); }
+body[data-page="projects"] {
+  --motif-image: url("network-motif-projects.svg");
+  --motif-rotate: 0deg !important;
+  --motif-scale-x: 1 !important;
+}
+body[data-page="involved"] {
+  --motif-image: url("network-motif-involved.svg");
+  --motif-rotate: 0deg !important;
+  --motif-scale-x: 1 !important;
+}
 .breadcrumbs { display: flex; gap: 9px; margin-bottom: 24px; color: var(--ink-soft); font-size: 14px; font-weight: 700; }
 .breadcrumbs a { color: var(--ocean-deep); }
 .page-hero .breadcrumbs,
