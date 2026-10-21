@@ -1,3 +1,12 @@
+const motifSeed = window.location.pathname.replace(/\/+$/, '') || '/home';
+let motifHash = 0;
+for (const character of motifSeed) motifHash = ((motifHash * 31) + character.charCodeAt(0)) >>> 0;
+document.body.classList.add(`motif-${(motifHash % 6) + 1}`);
+document.body.style.setProperty('--motif-rotate', `${(motifHash % 19) - 9}deg`);
+document.body.style.setProperty('--motif-shift-x', `${((motifHash >>> 5) % 35) - 17}px`);
+document.body.style.setProperty('--motif-shift-y', `${((motifHash >>> 10) % 21) - 10}px`);
+document.body.style.setProperty('--motif-scale-x', motifHash % 2 ? '-1' : '1');
+
 const people = {
   "mark-warschauer": {
     name: "Mark Warschauer",
