@@ -128,7 +128,13 @@ main { overflow: hidden; }
 }
 .section-ink .eyebrow { color: var(--aqua); }
 h1, h2, h3, h4 { margin: 0; font-family: var(--display); line-height: 1.05; text-wrap: balance; }
-h1 { font-size: clamp(3.3rem, 7vw, 7rem); letter-spacing: -0.07em; }
+h1 {
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  font-size: clamp(3.3rem, 7vw, 7rem);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -.045em;
+}
 h2 { font-size: clamp(2.35rem, 4.5vw, 4.8rem); letter-spacing: -0.055em; }
 h3 { font-size: clamp(1.35rem, 2.3vw, 2rem); letter-spacing: -0.035em; }
 p { margin: 0 0 1.15em; }
@@ -246,11 +252,7 @@ p { margin: 0 0 1.15em; }
 .page-hero > .container { position: relative; z-index: 1; }
 .page-hero h1 {
   max-width: 1040px;
-  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
   font-size: clamp(3.25rem, 6.4vw, 6.1rem);
-  font-weight: 700;
-  line-height: 1.02;
-  letter-spacing: -.045em;
 }
 .page-hero .lede { margin-top: 26px; }
 .page-hero::after,
