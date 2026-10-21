@@ -1,6 +1,6 @@
 # People photo guide
 
-The People page is ready for portrait photos. Store final images in `dist/assets/people/` and use lowercase, hyphenated filenames, for example:
+The People page uses the portraits published on the current Digital Learning Lab website. The repository copies are stored in `dist/assets/people/` using lowercase, hyphenated filenames, for example:
 
 - `mark-warschauer.jpg`
 - `tamara-tate.jpg`
@@ -14,18 +14,23 @@ The People page is ready for portrait photos. Store final images in `dist/assets
 - Use a neutral or uncluttered background when possible.
 - Obtain permission from each person before publishing their portrait.
 
-## Replacing a placeholder
+## Replacing a portrait
 
-Inside the corresponding `.person-photo` block in `dist/people.html`, replace the initials placeholder:
+Replace the corresponding file in `dist/assets/people/` while preserving its filename, or update the image path in both `dist/people.html` and `dist/assets/person-profile.js`.
 
-```html
-<div class="person-placeholder" aria-label="Photo placeholder for Mark Warschauer">MW</div>
-```
-
-with an image:
+The People card markup follows this pattern:
 
 ```html
 <img src="assets/people/mark-warschauer.jpg" alt="Mark Warschauer">
 ```
 
 The existing CSS will crop each photo consistently without changing the card layout.
+
+## Profile pages
+
+Each person in Leadership, Lab Staff, and Graduate Students has an individual HTML page in `dist/people/`. Shared profile content is maintained in `dist/assets/person-profile.js` so roles, biographies, interests, and professional links can be updated in one place.
+
+## Sources
+
+- Portraits: the public [Digital Learning Lab People page](https://www.digitallearninglab.org/people.html)
+- Biographical and research details: public UC Irvine faculty, staff, and doctoral directory pages, plus personal academic websites linked from each profile when available
