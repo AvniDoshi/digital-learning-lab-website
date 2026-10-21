@@ -161,8 +161,19 @@ p { margin: 0 0 1.15em; }
 .btn-light:hover { border-color: var(--aqua); background: var(--aqua); color: var(--ink); }
 .arrow { font-size: 1.2em; }
 
-.hero { position: relative; min-height: 720px; display: grid; align-items: center; padding: 90px 0 110px; background: linear-gradient(135deg, #edf8f3 0%, #dff4f6 55%, #f8f4df 100%); }
-.hero::after { content: ""; position: absolute; inset: auto -12% -35% 42%; height: 590px; border-radius: 50%; background: rgba(121,215,214,.25); filter: blur(3px); }
+.hero { position: relative; isolation: isolate; overflow: hidden; min-height: 720px; display: grid; align-items: center; padding: 90px 0 110px; background: linear-gradient(135deg, #edf8f3 0%, #dff4f6 55%, #f8f4df 100%); }
+.hero::after {
+  content: "";
+  position: absolute;
+  right: -210px;
+  bottom: -520px;
+  width: 760px;
+  height: 760px;
+  border: 1px solid rgba(10,110,132,.08);
+  border-radius: 50%;
+  background: rgba(121,215,214,.1);
+  pointer-events: none;
+}
 .hero-grid { position: relative; z-index: 2; display: grid; grid-template-columns: 1.08fr .92fr; gap: 60px; align-items: center; }
 .hero h1 span { color: var(--ocean); }
 .hero-copy .lede { max-width: 690px; margin-top: 28px; }
