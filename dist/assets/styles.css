@@ -256,6 +256,12 @@ p { margin: 0 0 1.15em; }
 .feature-card:nth-child(3n + 2) .card-orb { background: rgba(245,200,76,.42); }
 .feature-card:nth-child(3n + 3) .card-orb { background: rgba(239,128,93,.3); }
 .feature-card p { margin: 16px 0 0; color: var(--ink-soft); font-size: 15px; }
+.feature-card .card-action { color: var(--ocean-deep); font-size: 14px; font-weight: 850; }
+.feature-card:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+.platform-facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 38px; }
+.platform-fact { padding: 22px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: white; }
+.platform-fact strong { display: block; margin-bottom: 6px; color: var(--ocean-deep); }
+.availability-note { margin-top: 24px; padding: 18px 20px; border-left: 4px solid var(--gold); background: rgba(245,200,76,.16); color: var(--ink-soft); }
 .text-link { display: inline-flex; gap: 8px; color: var(--ocean-deep); font-size: 14px; font-weight: 800; text-decoration: none; }
 .text-link:hover { text-decoration: underline; }
 
@@ -455,7 +461,7 @@ p { margin: 0 0 1.15em; }
   .pathway-item::before { top: 17px; left: -10px; }
   .project-items { grid-template-columns: 1fr; }
   .people-section-header, .directory-grid, .profile-hero-grid, .profile-context, .archive-grid, .objective-list { grid-template-columns: 1fr; }
-  .course-facts { grid-template-columns: 1fr; }
+  .course-facts, .platform-facts { grid-template-columns: 1fr; }
   .profile-portrait { width: min(100%, 520px); order: -1; }
   .leadership-grid, .staff-grid, .people-grid { grid-template-columns: repeat(2, 1fr); }
   .grant { grid-template-columns: 1fr; gap: 12px; }
